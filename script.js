@@ -1,4 +1,4 @@
-// 12/17/25, Landon Morton //
+// 12/18/25, Landon Morton //
 
 const menu = document.querySelector(".menu");
 const menuItems = document.querySelectorAll(".menuItem");
