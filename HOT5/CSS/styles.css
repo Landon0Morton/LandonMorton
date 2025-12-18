@@ -1,0 +1,92 @@
+/*
+  Styles.CSS created by Landon Morton
+  10/28/25
+  The purpose of this style sheet is mostly just for coloring and other small changes.
+*/
+
+/* List changes */
+ul {
+  list-style: circle;
+}
+
+ul .remove-circle {
+  list-style-type: none;
+}
+
+/* Nav Changes */
+
+/* Classes and Id's */
+.bg-brc-red {
+  background-color: rgba(162, 48, 48, 0.8)
+}
+
+.bg-placeholder {
+  background-color: black;
+}
+
+.orange { 
+  color: #fd7e4f;
+}
+
+.orange-btn { 
+  background-color: #fd7e4f;
+  color: #fff;
+  background-size: cover;
+  padding: 0.5em
+}
+
+.orange-btn:hover {
+  background-color: #f8612a;
+}
+
+.bg-image {
+  background-image: url(../Images/running-guy.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: 0;
+}
+
+.bg-vid {
+  background-image: url(../Videos/running-vid.gif);
+  background-size: cover;
+  background-position: 0;
+}
+
+.bg-black-see-through {
+  background-color: rgba(0, 0, 0, 85%);
+}
+
+.map {
+  width: 100%;
+  height: 500px
+}
+
+.bigger-font {
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+/* Mobile Font Size */
+@media screen and (min-width: 0px) {
+  nav, header, main {
+    font-size: 0.7em;
+  }
+}
+
+/* Tablet Font Size */
+@media screen and (min-width: 768px) {
+  nav, header, main {
+    font-size: 1.2em;
+  }
+}
+
+/* Desktop Font Size */
+@media screen and (min-width: 900px) {
+  nav, header, main {
+    font-size: 1.4em;
+  }
+
+  .tiers-smaller {
+    font-size: 0.7em;
+  }
+}
